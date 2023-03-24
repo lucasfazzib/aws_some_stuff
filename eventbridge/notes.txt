@@ -1,0 +1,3 @@
+Criar a regra de acordo com o padrao do seu evento, da pra analisar via output no cloudwatch.
+Regra de exemplo.
+A partir dessa regra da pra disparar uma funcao lambda e executar algo com opayload do evento.

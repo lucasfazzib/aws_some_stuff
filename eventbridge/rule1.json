@@ -1,0 +1,8 @@
+{
+    "detail": {
+      "event_type": ["type_of_event"],
+      "data": {
+        "status": ["succes"]
+      }
+    }
+  }
