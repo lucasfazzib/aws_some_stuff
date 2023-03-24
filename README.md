@@ -5,7 +5,9 @@
 - Python
 - SDK da API da AWS (Boto3)
 - Padrões orientados a eventos
-- DynamoDBName
+- DynamoDB
+- Eventbridge
+- RDS
 
 
 Como executar?
