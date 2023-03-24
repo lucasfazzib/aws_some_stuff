@@ -38,7 +38,8 @@ def lambda_handler(event, context):
     try:
         for record in event["Records"]:
             payload = json.loads(record["body"])
-            process_message(payload,event_bus_name='event-bus-name-that-you-defined')
+            message_content = json.loads(payload['Message'])
+            process_message(message_content,event_bus_name='pismo-api-event-bus')
     except Exception as e:
         logger.error(f'Erro ao processar mensagens: {e}')
         raise e
